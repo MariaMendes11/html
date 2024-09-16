@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    font-family: arial, sans-serif;
+    background-color: azure;
+    color:lightslategray;
+    /*Garante que o body ocupe toda a altura da tela*/
+    min-height: 100vh;
+}
+
+header{
+    background-color: lightblue;
+    padding: 20px;
+    color: lightslategray;
+    text-align: center;
+}
+
+.logo{
+    display: flex;  /*Uso do flex para alinhar a logo e o título*/
+    align-items: center;/*Alinha verticalmenteos itens da div em questão*/
+    justify-content: center;/*Centraliza os itens horizontamente*/
+    background-color: aqua;
+}
+
+img{
+    max-width: 70px;
+    margin-right: 10px ;
+}

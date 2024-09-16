@@ -1,0 +1,21 @@
+/* Seletor Universal*/
+*{
+    background-color:  lightblue;
+    color: lightcyan;
+}
+/*Estilização por nome de tag */
+h1{
+    background-color: lightblue;
+    color: aliceblue;
+}
+/*Estilização por seletor de classe*/
+.titulo{
+    background-color: lightcyan;
+    color: lightslategray;
+}
+
+/*Estilização por seletor de id */
+#destaque{
+    background-color: lightcyan;
+    color: rgb(70, 142, 142);
+}
