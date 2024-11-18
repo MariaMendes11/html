@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: red;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color:white
+}
+
+.logo{
+    height: 50px;
+}
+
+header nav{
+    display: flex;
+    gap: 15px;
+}
+
+main{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+
+.secao1{
+   /* flex-grow: 1;*/
+    width: 70%;
+    background-color: whitesmoke;
+    padding: 20px;
+    color: black;
+}
+
+.secao2{
+    padding: 20px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    position: absolute;
+}
+
+footer p{
+    margin: 5px 0;
+}
